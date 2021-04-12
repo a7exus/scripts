@@ -1,0 +1,9 @@
+[Unit]
+Description=CO2 service
+
+[Service]
+ExecStart=/home/pi/prog/co2.sh
+
+[Install]
+WantedBy=multi-user.target
+
